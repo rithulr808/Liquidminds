@@ -23,11 +23,8 @@ const  Home= () => {
             <h1 className="absolute top-[30vh] right-[38vh] text-sky-400 font-bold text-[90px]  text-left">
                 and Relax
             </h1>
-            <h2 className="absolute top-1/2 right-36 text-gray-900   text-2xl w-1/3 text-justify" >
-                These days mental health issues like anxiety, panic attacks, and ADHD are really common among people,
-                especially the youth because of studies, toxic relationships and carrier decisions. Many undergo depression
-                because of these issues and ignore them as if it's nothing but will act as a slow poison. So we created
-                a website to spread awareness among society and tackle those problems and score better points in life.
+            <h2 className="absolute top-1/2 right-36 text-gray-500  font-bold  text-2xl w-1/3 text-justify" >
+                Find what makes you happy.
             </h2>
         </div>
             <div className='relative flex justify-center bg-gray-100 mt-20 '>

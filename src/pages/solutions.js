@@ -53,23 +53,6 @@ const Solutions =() => {
                                 It also increases the chances of continuing to complete these tasks after you end your
                                 formal therapy sessions.
                             </p>
-                            <div className="text-gray-800">
-                                <p className="text-left ">
-                                    1 Feeling nervous, restless or tense.
-                                </p>
-                                <p className="text-left ">
-                                    2 Sweating
-                                </p>
-                                <p className="text-left ">
-                                    3 Trembling
-                                </p>
-                                <p className= "text-left ">
-                                    4 Feeling weak or tired.
-                                </p>
-                                <p className= "text-left ">
-                                    5 present worry.
-                                </p>
-                            </div>
                         </div>
                     </div>
                     <div className="wrap-card mx-5 my-5 ">
@@ -92,23 +75,6 @@ const Solutions =() => {
                                 recognize and learn to accept your negative thought patterns and detach from them
                                 instead of letting them take over.
                             </p>
-                            <div className="text-gray-800">
-                                <p className="text-left ">
-                                    1 daydream a lot
-                                </p>
-                                <p className="text-left ">
-                                    2 forget or lose things a lot
-                                </p>
-                                <p className="text-left ">
-                                    3 squirm or fidget
-                                </p>
-                                <p className= "text-left ">
-                                    4 talk too much
-                                </p>
-                                <p className= "text-left ">
-                                    5 make careless mistakes or take unnecessary risks
-                                </p>
-                            </div>
                              </div>
                          </div>
                     </div>
