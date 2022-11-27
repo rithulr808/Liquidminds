@@ -1,5 +1,6 @@
 import '../components/survey.css';
 import {Link} from "react-router-dom";
+import bg from "../assets/bgfor.jpg";
 
 import React, { useState } from 'react';
 
@@ -182,11 +183,13 @@ import React, { useState } from 'react';
     };
     return (
         <div className='app'>
+            <img  src={bg} className="absolute top-0 left-0 w-full h-full z-0" alt="bg" />
+            <div className='absolute z-2'>
             {showScore ? (
-                <div className='score-section text-gray-700'>
+                <div className='score-section text-4xl text-gray-800 font-bold'>
                     Thank You for your valuable Time and Information!!
                     <br/>
-                    <Link to="/Solutions" className="py-3 px-6 text-white bg-blue-800 rounded-3xl text-4xl mx-1 " >Next</Link>
+                    <Link to="/Solutions" className="py-2 px-7 text-white bg-blue-700 rounded-3xl text-4xl mx-1 ml-4" >Next</Link>
                 </div>
             ) : (
                 <>
@@ -203,6 +206,7 @@ import React, { useState } from 'react';
                     </div>
                 </>
             )}
+            </div>
         </div>
     );
 }

@@ -4,6 +4,7 @@ import logo from "../assets/logo.png";
 import chart from "../assets/charts.png";
 import {Button} from "@mui/material";
 import {Link} from "react-router-dom";
+import survey from "../assets/survey.png";
 
 
 const  Home= () => {
@@ -16,7 +17,13 @@ const  Home= () => {
                 alt={""}
                 className="h-[65rem] w-full object-cover"
             />
-            <h2 className="absolute top-1/3 right-10 text-gray-900 font-bold text-3xl w-1/3 text-justify" >
+            <h1 className="absolute top-[20vh] right-[3vh] text-sky-400 font-bold text-[90px]  text-left">
+                Just Deep Breathe
+                </h1>
+            <h1 className="absolute top-[30vh] right-[38vh] text-sky-400 font-bold text-[90px]  text-left">
+                and Relax
+            </h1>
+            <h2 className="absolute top-1/2 right-36 text-gray-900   text-2xl w-1/3 text-justify" >
                 These days mental health issues like anxiety, panic attacks, and ADHD are really common among people,
                 especially the youth because of studies, toxic relationships and carrier decisions. Many undergo depression
                 because of these issues and ignore them as if it's nothing but will act as a slow poison. So we created
@@ -94,8 +101,6 @@ const  Home= () => {
                                 5 make careless mistakes or take unnecessary risks
                             </p>
                         </div>
-
-
                         </div>
                     </div>
                 </div>
@@ -189,9 +194,15 @@ const  Home= () => {
                         <Link to="/Survey" className="p-2 text-white bg-blue-800 rounded-lg" >Survey</Link>
                     </Button>
                 </div>
-
             </div>
-            <hr className="p-4"/>
+            <div className="p-12">
+                <img
+                    src={survey}
+                    alt={""}
+                    className="h-[60rem] w-full object-cover"
+                />
+            </div>
+            <hr className="py-4"/>
             <div className=" relative left-1/4 text-left p-10 w-1/2 justify-center  border rounded-3xl">
                 <div className="relative inline top-0 left-0 text-gray-800 text-xl w-1/6 text-justify" >
                     <h2 >
